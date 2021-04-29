@@ -5,6 +5,7 @@ import Main from '../components/Main';
 import Footer from '../components/Footer';
 import Grid from '../components/Grid';
 import Card from '../components/Card';
+import Header from '../components/Header';
 
 import styles from '../styles/Home.module.scss'
 
@@ -20,6 +21,8 @@ export default function Home() {
           content="Use Sass to start your Next.js app with CSS superpowers!"
         ></meta>
       </Head>
+    
+      <Header />
 
       <Main>
         <h1 className={styles.title}>
